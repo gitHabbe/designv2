@@ -1,3 +1,4 @@
 #### Kursrepo
 
-Skriv något kort om kursen och länka till [kursens hemsida på dbwebb.se](XXX) och till [kursrepot på GitHub](XXX).
+Ta en kik på kursen repo som innehåller all kod som vi hämtar för att sätta igång [HÄR](https://github.com/dbwebb-se/design).  
+Du kan finna kursens webbplats på [dbwebb's](https://dbwebb.se/kurser/design-v2) hemsida för en närmare titt på kursen.

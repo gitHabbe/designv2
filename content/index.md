@@ -1,25 +1,19 @@
 ---
-title: "Min fina titel"
+title: "Index"
 ---
-Min me-sida i kursen design
-=========================
+
+# Min me-sida i kursen design-v2
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me2.jpg?w=300" class="right" caption="Bild på mig"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Detta är min me-sida i kursen design-v2. Denna sidan innehåller en presentation av mig själv.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Född och uppväxt i Härnösand som ligger några mil norr om Sundsvall.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Teknik, datorer och spel har alltid varit ett intresse när jag växte upp så teknikprogrammet på Härnösands gymnasium var ett självklart val för mig. Utbildningen gav dig möjlighet att välja mellan IT (programmering) eller design (CAD), där åter igen valet var enkelt, IT.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Intressen som håller mig borta från datorn är bland annat sporter och “lekar”. Tennis, handboll och vollyboll är favoriterna men Warszawa (fotboll) och 21 (basket) är väldigt roligt också.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+/Niklas

@@ -1,0 +1,202 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+/* Poor-mans normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chivo", sans-serif;
+}
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Chivo&display=swap");
+
+/* font-family: 'Julius Sans One', sans-serif; */
+
+/* ALL */
+.outer-wrap-main {
+    min-height: calc(100vh - 130px);
+}
+
+.inner-wrap-main {
+    margin: 0 10px;
+}
+
+.outer-wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+// .outer-wrap-header {
+//     width: 100vw;
+//     background-color: black;
+// }
+
+// .inner-wrap-header {
+//     width: 1000px;
+//     margin: auto;
+// }
+
+// .region-header {
+//     display: flex;
+//     flex-direction: row-reverse;
+//     align-items: center;
+//     justify-content: space-between;
+// }
+
+.site-logo {
+    display: none;
+}
+
+.region-header-col-3 {
+    display: none;
+}
+
+/* NAVBAR */
+.my-navbar {
+    margin-left: auto;
+    display: flex;
+    font-family: "Julius Sans One", sans-serif;
+    list-style-type: none;
+}
+.my-navbar > li > a {
+    text-decoration: none;
+    color: white;
+    /* padding-top: 10px; */
+    margin-right: 15px;
+    font-size: 26px;
+    transition: all 0.2s ease-in-out;
+}
+
+.my-navbar > li > a:hover {
+    /* transform: translateX(-200px); */
+    color: rgb(150, 150, 150);
+}
+
+.site-logo-text > a {
+    color: grey;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+.outer-wrap-footer {
+    width: 100vw;
+    background-color: rgb(209, 209, 209);
+}
+.inner-wrap-footer {
+    width: 1000px;
+    margin: 0 auto;
+    color: rgb(27, 27, 27);
+}
+
+.footer-column-wrapper {
+    display: flex;
+}
+
+.footer-column {
+    margin: 20px;
+}
+
+.footer-column p {
+    font-size: 16px;
+}
+
+.site-footer {
+    text-align: end;
+}
+
+.site-footer > p {
+    font-size: 14px;
+}
+
+.region-main > h1,
+.region-main > p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.region-main > .stylechooser {
+    margin: 25px auto 0;
+    width: 70%;
+}
+
+.region-main > .stylechooser > fieldset {
+    padding: 30px;
+}
+
+.region-main .stylechooser label {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* SIDEBAR */
+
+.region-sidebar-left {
+    border-right: black 1px solid;
+    padding-right: 20px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    /* width: 33%; */
+}
+.region-sidebar-left ul > li {
+    list-style-type: none;
+}
+.region-sidebar-left ul > li > a {
+    text-decoration: none;
+}
+
+.article > p {
+    margin: 30px 0;
+}
+
+.next-previous {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+}
+
+/* BREADCRUMB */
+
+.breadcrumb-list {
+    /* background-color: azure; */
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: black 1px solid;
+}
+
+.breadcrumb-list > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.breadcrumb-list > ul > li > a {
+    text-decoration: none;
+}
+
+.breadcrumb-list li:not(:last-child):after {
+    content: " \2192 \00a0";
+}

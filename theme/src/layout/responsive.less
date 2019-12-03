@@ -1,0 +1,60 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+/**
+  * Navbar
+  */
+@media screen and (max-width: 1011px) {
+    .region-flash > img {
+        width: 100%;
+    }
+    .outer-wrap-header {
+        .inner-wrap-header {
+            width: 100%;
+        }
+    }
+    .outer-wrap-footer {
+        .inner-wrap-footer {
+            width: 100%;
+        }
+    }
+    .my-navbar > li > a {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .outer-wrap {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .rm-desktop {
+        display: none;
+    }
+    .footer-column-wrapper {
+        flex-direction: column;
+
+        .footer-column {
+            margin: 0 5px;
+            font-size: 20px;
+        }
+    }
+
+    .outer-wrap-header .inner-wrap-header .region-header {
+        flex-direction: column;
+    }
+    .row {
+        flex-direction: column;
+        .wrap-sidebar {
+            text-align: center;
+            border: 0;
+        }
+    }
+}
