@@ -214,14 +214,8 @@ p {
   flex-direction: row-reverse;
   margin-bottom: 15px;
 }
-.article > p {
-  margin: 30px 0;
-}
 .breadcrumb-list {
   /* background-color: azure; */
-  margin-top: 5px;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
   border-bottom: black 1px solid;
 }
 .breadcrumb-list > ul {
@@ -368,9 +362,6 @@ p {
   }
   .outer-wrap-footer .inner-wrap-footer {
     width: 100%;
-  }
-  .rm-desktop {
-    background-color: orange;
   }
   .my-navbar > li > a {
     margin-right: 10px;
