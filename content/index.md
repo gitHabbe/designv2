@@ -6,7 +6,7 @@ title: "Index"
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me2.jpg?w=300" class="right" caption="Bild på mig"]
+[FIGURE src="image/me2.jpg?w=300" class="left" caption="Bild på mig"]
 
 Detta är min me-sida i kursen design-v2. Denna sidan innehåller en presentation av mig själv.
 

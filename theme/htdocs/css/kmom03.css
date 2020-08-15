@@ -5523,7 +5523,7 @@ hr::after {
 }
 .my-navbar {
   display: flex;
-  font-family: "Chivo", sans-serif;
+  font-family: "Julius Sans One", sans-serif;
   list-style-type: none;
 }
 .my-navbar > li > a {
