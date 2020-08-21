@@ -6,9 +6,13 @@ Denna rapport kommer handla om designval som utvecklare har valt att göra kring
 
 För denna rapport valde jag att analysera W3school, Nodejs och Syntaxfm för att se vilka val dom gjort i designen för att locka folk att återvända till deras hemsidor. Alla tre är inom kategorin webbutveckling vilket jag tycker passar in på temat och dom har ett utseende som gör att man vill komma tillbaka för att hitta det senaste inom ämnet. Alla tre webbsidor har olika färgteman så det går att finna skillnader mellan dom vilket gör undersökningen och resultatet mer intressant. Ofta känns det som en mörkare design förväntar sig att en användare återkommer tycker jag personligen eftersom ljusare färger kan vara jobbigt för ögonen. Samtidigt är ljust tema välkomnande och bjuder in läsaren mycket mer eftersom det också känns mer bekant. Jag valde att hålla mig borta från hemsidor som GitHub och StackOverflow då jag kan tänka mig att många andra studenter valt dom i sitt arbete.
 
-https://w3schools.com/
+1. W3school
+2. Nodejs
+3. Syntaxfm
+
+<!-- https://w3schools.com/
 https://nodejs.org/en/
-https://syntax.fm/
+https://syntax.fm/ -->
 
 ## Metod
 
@@ -88,10 +92,10 @@ Det känns inte som Syntaxfm har spånat på någon palett som skulle kunna fung
 
 ## Referenser
 
-[w3schools.com/](https://www.w3schools.com/)
-[nodejs.org/en/](https://nodejs.org/en/)
-[syntax.fm/](https://syntax.fm/)
-[nngroup.com/articles/characteristics-minimalism/](https://www.nngroup.com/articles/characteristics-minimalism/)
+[w3schools.com/](https://www.w3schools.com/)  
+[nodejs.org/en/](https://nodejs.org/en/)  
+[syntax.fm/](https://syntax.fm/)  
+[nngroup.com/articles/characteristics-minimalism/](https://www.nngroup.com/articles/characteristics-minimalism/)  
 [color.adobe.com/create/color-wheel](https://color.adobe.com/create/color-wheel)
 
 ## Övrigt
