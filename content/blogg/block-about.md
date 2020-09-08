@@ -1,3 +1,4 @@
-#### Nytt och Noterat
+#### Cimage
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+
+Ett kort blogginlägg om Cimage. Kanske du borde använda det i ditt närsta projekt? Ta en närmare titt på [dokumentationen](https://cimage.se/doc).

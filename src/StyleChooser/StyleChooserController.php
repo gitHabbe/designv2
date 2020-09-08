@@ -118,7 +118,7 @@ class StyleChooserController implements ContainerInjectableInterface
         $flashMessage = null;
         if ($key === "none") {
             $session->set("flashmessage", "Unsetting the style and using deafult style.");
-            $session->set(self::$key, $this->cssUrl . "/04_dark.min.css");
+            $session->set(self::$key, $this->cssUrl . "/kmom05.min.css");
             // $session->set(self::$key, null);
         } elseif (array_key_exists($key, $this->styles)) {
             $session->set("flashmessage", "Using the style '$key'.");

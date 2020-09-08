@@ -1,11 +1,11 @@
 ---
-author: mos
+author: hab
 category:
     - fordon
     - limo
-published: "2018-11-03"
+published: "2019-11-03"
 ---
-En ovanlig limo
+Ovanlig limo
 ==================================
 
 I det här inlägget av dagens bild så kommer vi titta närmare på en limousine.

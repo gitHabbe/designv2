@@ -1,11 +1,11 @@
 ---
-author: mos
+author: hab
 category:
     - drycker
     - färger
-published: "2018-12-03"
+published: "2019-12-03"
 ---
-En färgglad drink
+Färgglad drink
 ==================================
 
 I dagens bild så presenteras en fotografi med väldigt många färger.

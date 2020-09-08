@@ -95,8 +95,10 @@ figure.figure {
 /**
  * My own settings, not currently in their own module.
  */
-@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Chivo&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,300;1,200&family=Mali:ital,wght@1,300&family=Rubik:ital,wght@1,300&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Chivo&display=swap");
 
 // Default grid, change to fit your requirements.
 @columnWidth: 30;
@@ -105,12 +107,18 @@ figure.figure {
 @gridType: "float"; // "flex"
 
 // Font configuration
-@fontFamilyBody: "Chivo", sans-serif;
-@fontFamilyNav: "Julius Sans One", sans-serif;
-@fontFamilyHeadings: "Julius Sans One";
+@fontFamilyBody: "Grandstander", cursive;
+@fontFamilyNav: "Mali", cursive;
+@fontFamilyHeadings: "Rubik", sans-serif;
 // @fontFamilyCode:     "monospace";
 @colorBody: #333;
+@bgColorBody: rgb(219, 219, 219);
+@colorHeaderBody: #8642b3;
 
 // Magic number and base fontsize
 @magicNumber: 24px; // 22px
 @fontSizeBody: 18px;
+
+.inner-wrap-header {
+    background-color: @colorHeaderBody;
+}

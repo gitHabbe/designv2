@@ -30,7 +30,7 @@ views:
                 view: blog-list
 
 ---
-Nytt och Noterat
+Bildhantering
 ===========================
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Här kan du läsa några blogginlägg om bildhantering. Varje inlägg har en unik uppsättning filter och modifieringar. Bilderna använder sig utav PHP-biblioteket [Cimage](https://cimage.se/).
