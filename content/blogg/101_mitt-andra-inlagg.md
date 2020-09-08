@@ -41,7 +41,7 @@ Bara Limo {#bara-limo}
 
 
 <figure class="figure">
-    <img src="image/limo.jpg?w=300&h=300&f=grayscale" alt="Limo">
+    <img src="image/limo.jpg?w=300&h=300&f=grayscale" alt="Limo" class="w50">
     <figcaption>
         <p>Med ett svartvitt-filter så hade det varit svårt att gissa den ovanliga färgen på bilen</p>
     </figcaption>

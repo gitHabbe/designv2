@@ -17,8 +17,8 @@ I dagens bild kan ni se olika versioner av min första beställning!
 
 Nedan kan du finna några olika versioner av bilden.
 
-<figure class="figure">
-    <img src="image/pelles.jpg?w=500&h=500&r=-90" alt="Pelles burgare">
+<figure class="figure center">
+    <img src="image/pelles.jpg?w=500&h=500&r=-90" alt="Pelles burgare" class="w67">
     <figcaption>
         <p>Här är bilden roterad 90°</p>
     </figcaption>

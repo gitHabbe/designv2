@@ -5719,6 +5719,127 @@ hr::after {
 /** --------------------------------------------------------------
  * Figure through .figure
  */
+figure.figure {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media (max-width: 1099px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    width: 33%;
+  }
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+    width: 100%;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 413px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    width: 100%;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
 /**
  * My own settings, not currently in their own module.
  */
@@ -5727,12 +5848,12 @@ hr::after {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Julius Sans One'), local('JuliusSansOne-Regular'), url(https://fonts.gstatic.com/s/juliussansone/v8/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsS.ttf) format('truetype');
+  src: local('Julius Sans One'), local('JuliusSansOne-Regular'), url(https://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsS.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Chivo';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Chivo Regular'), local('Chivo-Regular'), url(https://fonts.gstatic.com/s/chivo/v11/va9I4kzIxd1KFrBoQeY.ttf) format('truetype');
+  src: local('Chivo Regular'), local('Chivo-Regular'), url(https://fonts.gstatic.com/s/chivo/v12/va9I4kzIxd1KFrBoQeY.ttf) format('truetype');
 }
