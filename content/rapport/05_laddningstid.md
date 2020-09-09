@@ -35,6 +35,8 @@ Nodejs är extremt mån om att nå snabba laddningstider vilket man märker dire
 
 [FIGURE src="image/excel.png?w=600" caption="Statistik resultat"]
 
+[Länk](https://1drv.ms/x/s!AhETz3uiRvdQg5k4uadyakACbjIyEA?e=VQvCwe)
+
 
 # Sammanfattning
 
