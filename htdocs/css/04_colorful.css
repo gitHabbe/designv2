@@ -5721,77 +5721,77 @@ hr::after {
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local('Alegreya Sans SC Light'), local('AlegreyaSansSC-Light'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGm4-RGJqfMvt7P8FUr0Q1j-Hf1DuJH0iQ.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/alegreyasanssc/v12/mtGm4-RGJqfMvt7P8FUr0Q1j-Hf1DuJH0iQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Alegreya Sans SC';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Nk4.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/alegreyasanssc/v12/mtGh4-RGJqfMvt7P8FUr0Q1j-Hf1Nk4.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Alegreya Sans SC';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Alegreya Sans SC Bold'), local('AlegreyaSansSC-Bold'), url(https://fonts.gstatic.com/s/alegreyasanssc/v9/mtGm4-RGJqfMvt7P8FUr0Q1j-Hf1DvJA0iQ.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/alegreyasanssc/v12/mtGm4-RGJqfMvt7P8FUr0Q1j-Hf1DvJA0iQ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Londrina Solid';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local('Londrina Solid Light'), local('LondrinaSolid-Light'), url(https://fonts.gstatic.com/s/londrinasolid/v9/flUiRq6sw40kQEJxWNgkLuudGfv1CjY0.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/londrinasolid/v10/flUiRq6sw40kQEJxWNgkLuudGfv1CjY0.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Londrina Solid';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Londrina Solid Regular'), local('LondrinaSolid-Regular'), url(https://fonts.gstatic.com/s/londrinasolid/v9/flUhRq6sw40kQEJxWNgkLuudGcNZ.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/londrinasolid/v10/flUhRq6sw40kQEJxWNgkLuudGcNZ.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Fauna One';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Fauna One'), local('FaunaOne-Regular'), url(https://fonts.gstatic.com/s/faunaone/v7/wlpzgwTPBVpjpCuwkuEx2Q.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/faunaone/v8/wlpzgwTPBVpjpCuwkuEx2Q.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: local('Poppins Thin Italic'), local('Poppins-ThinItalic'), url(https://fonts.gstatic.com/s/poppins/v12/pxiAyp8kv8JHgFVrJJLmE3tF.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiAyp8kv8JHgFVrJJLmE3tF.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: local('Poppins ExtraLight Italic'), local('Poppins-ExtraLightItalic'), url(https://fonts.gstatic.com/s/poppins/v12/pxiDyp8kv8JHgFVrJJLmv1plEA.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLmv1plEA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: local('Poppins Thin'), local('Poppins-Thin'), url(https://fonts.gstatic.com/s/poppins/v12/pxiGyp8kv8JHgFVrLPTedw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrLPTedw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: local('Poppins ExtraLight'), local('Poppins-ExtraLight'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLFj_V1s.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLFj_V1s.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v12/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Work Sans';

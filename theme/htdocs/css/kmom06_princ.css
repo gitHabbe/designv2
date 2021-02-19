@@ -1,8 +1,8 @@
 /*!
- * LESS version of the stylesheet for design kmom01.
+ * LESS version of the stylesheet for design kmom06 designprinciples.
  *
- * This stylesheet is for the design course and kmom01. Its intention is to
- * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * This stylesheet is for the design course and kmom06. Its intention is to
+ * use kmom06_princ.css and lessify the style and use this as a wrapper for the new
  * style.
  */
 /**
@@ -194,8 +194,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #fff;
-  font: 100.01%/1 serif;
+  background-color: #f5a789;
+  font: 100.01%/1 'Hind Madurai', sans-serif;
 }
 p {
   font-size: 20px;
@@ -299,7 +299,7 @@ p {
 .my-navbar {
   margin-left: auto;
   display: flex;
-  font-family: serif;
+  font-family: 'Hind Madurai', sans-serif;
   list-style-type: none;
 }
 .my-navbar > li > a {
@@ -427,3 +427,106 @@ p {
 /**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Reggae One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/reggaeone/v1/7r3DqX5msMIkeuwJwOJt_a4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/indieflower/v12/m8JVjfNVeKWVnh3QMuKkFcZlbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/hindmadurai/v6/f0Xx0e2p98ZvDXdZQIOcpqjn8Q.ttf) format('truetype');
+}
+body {
+  background-color: #FED9B7;
+}
+.outer-wrap-main a {
+  font-family: 'Hind Madurai', sans-serif;
+}
+.outer-wrap-main .inner-wrap-main .region-main .figure img {
+  border-width: 10;
+  border-style: solid;
+  border-top-width: 0.6em;
+  border-right-width: 0.6em;
+  border-bottom-width: 0.6em;
+  border-left-width: 0.6em;
+  border-image: linear-gradient(315deg, #F07167, #0081A7, #F07167) 1;
+}
+.outer-wrap-main .inner-wrap-main .region-main .article {
+  text-align: center;
+}
+.article h1 {
+  font-size: 24px;
+}
+.article p {
+  font-size: 18px;
+}
+.article ol {
+  font-size: 20px;
+  margin: 30px;
+}
+.region-header-col-1 {
+  display: none;
+}
+.rm-submenu-button {
+  display: none;
+}
+.outer-wrap-header {
+  padding: 16px 0;
+  background-color: #00AFB9;
+}
+.outer-wrap-header .inner-wrap-header .region-header {
+  flex-direction: row;
+  justify-content: center;
+}
+.outer-wrap-header .inner-wrap-header .region-header a {
+  font-family: 'Reggae One', cursive;
+  color: #242222;
+}
+.my-navbar > li {
+  display: inline-block;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+.my-navbar > li:hover {
+  transform: scale(1.1) translateY(10px);
+}
+.my-navbar > li a:hover {
+  color: #529ebe;
+}
+.outer-wrap-footer {
+  background: #0081A7;
+}
+.outer-wrap-footer .inner-wrap-footer .region-footer {
+  color: #FDFCDC;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Indie Flower', cursive;
+}
+p {
+  font-family: 'Hind Madurai', sans-serif;
+}
+.wrap-sidebar h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.wrap-sidebar p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}

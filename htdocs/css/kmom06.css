@@ -1,8 +1,8 @@
 /*!
- * LESS version of the stylesheet for design kmom01.
+ * LESS version of the stylesheet for design kmom06.
  *
- * This stylesheet is for the design course and kmom01. Its intention is to
- * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * This stylesheet is for the design course and kmom06. Its intention is to
+ * use kmom06.css and lessify the style and use this as a wrapper for the new
  * style.
  */
 /**
@@ -427,3 +427,51 @@ p {
 /**
  * My own settings, not currently in their own module.
  */
+body {
+  background-color: #2e2e2e;
+  color: #ebebeb;
+}
+.outer-wrap-header {
+  background: #202020;
+  border-bottom: 1px solid black;
+}
+.outer-wrap-header .row {
+  flex-direction: row;
+}
+.outer-wrap-header .row .region-header {
+  flex-direction: row;
+}
+.region-header-col-1 {
+  display: none;
+}
+.rm-submenu-button {
+  display: none;
+}
+.my-navbar > li {
+  display: inline-block;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+.my-navbar > li:hover {
+  transform: scale(1.1) translateY(10px);
+}
+.my-navbar > li a:hover {
+  color: #529ebe;
+}
+a {
+  color: #529ebe;
+}
+.article ol {
+  font-size: 20px;
+  margin: 30px;
+}
+.outer-wrap-footer {
+  border-top: 1px solid black;
+  background: #202020;
+}
+.outer-wrap-footer .footer-column {
+  color: #949494;
+}
+.site-footer p {
+  color: #e2e2e2;
+}

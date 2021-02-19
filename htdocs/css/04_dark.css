@@ -5721,14 +5721,14 @@ hr::after {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Armata Regular'), local('Armata-Regular'), url(https://fonts.gstatic.com/s/armata/v11/gokvH63_HV5jQ-E9lA.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/armata/v12/gokvH63_HV5jQ-E9lA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Chivo';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Chivo Regular'), local('Chivo-Regular'), url(https://fonts.gstatic.com/s/chivo/v11/va9I4kzIxd1KFrBoQeY.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/chivo/v12/va9I4kzIxd1KFrBoQeY.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Josefin Sans';

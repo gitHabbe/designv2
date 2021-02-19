@@ -5721,12 +5721,12 @@ hr::after {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Julius Sans One'), local('JuliusSansOne-Regular'), url(https://fonts.gstatic.com/s/juliussansone/v8/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsS.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsS.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Chivo';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Chivo Regular'), local('Chivo-Regular'), url(https://fonts.gstatic.com/s/chivo/v11/va9I4kzIxd1KFrBoQeY.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/chivo/v12/va9I4kzIxd1KFrBoQeY.ttf) format('truetype');
 }
