@@ -1,20 +1,20 @@
 ---
 views:
-  kursrepo:
-    region: sidebar-right
-    template: anax/v2/block/default
-    data:
-      meta:
-        type: single
-        route: block/om-kursrepo
+    kursrepo:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-kursrepo
 
-  redovisa:
-    region: sidebar-right
-    template: anax/v2/block/default
-    data:
-      meta:
-        type: single
-        route: block/om-redovisa
+    redovisa:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-redovisa
 ---
 
 # Om
@@ -24,12 +24,3 @@ Detta innehåll är skrivet i markdown och du hittar innehållet i filen `conten
 Det ska bli intressant att lära sig hur snygg design är gjord!
 
 [FIGURE src=image/less-icon.png?w=300 caption="LESS"]
-
-djasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaodjasdsojdnas dsaid jsao
-djasdsojdnas dsaid jsao
-djasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaodjasdsojdnas dsaid jsao
-djasdsojdnas dsaid jsao
-djasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaodjasdsojdnas dsaid jsao
-
-djasdsojdnas dsaid jsao
-djasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaodjasdsojdnas dsaid jsaovdjasdsojdnas dsaid jsao
